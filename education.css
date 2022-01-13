@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.tittle-box{
+	text-align: center;
+	margin: 100px auto 50px;
+}
+.profile-box{
+	width: 200px;
+	height: 180px;
+	background: #fff;
+	border-radius: 4px;
+	margin-bottom: 30px;
+	box-shadow: 0 10px 10px 10px rgba(115, 193, 255, 0.1);
+	padding: 20px;
+	position: relative;
+}
+.profile-box img{
+	width: 100%;
+	align-content: center;
+	padding-top:10px;
+	border-radius: 4px;
+}
+.profile-box h4{
+	font-family: monospace;
+	text-align: center;
+	font-size: 17px;
+
+}
+.profile-box p{
+	text-align: center;
+	font-size: 13px;
+}
+.biodata-row{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 85%;
+	margin: auto;
+}
